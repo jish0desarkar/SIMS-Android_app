@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity  {
                     map.put("reason",pending.get(position).getReason());
                     map.put("requestedby",pending.get(position).getRequestedby());
         intent.putExtra("detail", map);
-
+finish();
 startActivity(intent);
 
 

@@ -47,9 +47,9 @@
             app:layout_constraintVertical_bias="0.069" />
 
         <TextView
-            android:id="@+id/authorized"
+            android:id="@+id/patient_dischargedate"
             android:layout_width="180dp"
-            android:layout_height="22dp"
+            android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
@@ -63,6 +63,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.34" />
+
 
         <TextView
             android:id="@+id/requestedby"
@@ -156,7 +157,7 @@
             app:layout_constraintVertical_bias="0.709" />
 
         <TextView
-            android:id="@+id/patient_billamount"
+            android:id="@+id/patient_discount"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -174,7 +175,7 @@
             app:layout_constraintVertical_bias="0.609" />
 
         <TextView
-            android:id="@+id/patient_discount"
+            android:id="@+id/patient_billamount"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -192,7 +193,7 @@
             app:layout_constraintVertical_bias="0.557" />
 
         <TextView
-            android:id="@+id/patient_dischargedate"
+            android:id="@+id/authorized"
             android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
@@ -295,7 +296,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="Auth By"
+            android:text="Discharge Date"
             android:textSize="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -363,7 +364,7 @@
             android:layout_marginTop="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginBottom="8dp"
-            android:text="Discharge Date"
+            android:text="Auth By"
             android:textSize="15dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
